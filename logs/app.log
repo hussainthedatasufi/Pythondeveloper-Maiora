@@ -1,0 +1,17 @@
+2024-11-13 10:24:01,506 - INFO - Loading data from file: order_region_a.csv
+2024-11-13 10:24:01,577 - INFO - Loading data from file: order_region_b.csv
+2024-11-13 10:24:01,641 - INFO - Concatenated data from both regions
+2024-11-13 10:24:01,819 - INFO - Applied transformations to data
+2024-11-13 10:24:01,844 - INFO - Removed duplicates and filtered out records with non-positive net_sales
+2024-11-13 10:24:01,900 - INFO - Connected to PostgreSQL database
+2024-11-13 10:24:01,923 - INFO - Created sales_data table if it didn't already exist
+2024-11-13 10:24:08,706 - INFO - Inserted data into sales_data table
+2024-11-13 10:24:08,721 - INFO - Executed validation query: total_record_count
+2024-11-13 10:24:08,721 - INFO - Executed validation query: total_sales_by_region
+2024-11-13 10:24:08,735 - INFO - Executed validation query: average_sales_per_transaction
+2024-11-13 10:24:08,756 - INFO - Executed validation query: duplicate_order_id_check
+2024-11-13 10:24:08,756 - INFO - Validation - total_record_count: [(41052,)]
+2024-11-13 10:24:08,756 - INFO - Validation - total_sales_by_region: [('A', 34579820.0)]
+2024-11-13 10:24:08,756 - INFO - Validation - average_sales_per_transaction: [(832.0766632825697,)]
+2024-11-13 10:24:08,756 - INFO - Validation - duplicate_order_id_check: []
+2024-11-13 10:24:08,756 - INFO - Closed PostgreSQL database connection
